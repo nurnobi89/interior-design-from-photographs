@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rooms — Alcovea</title>
+  <meta name="description" content="Five rooms we draw: living room from $795, kitchen and dining from $1,095, bedroom from $645, home office and small rooms from $545. Priced per room, drawn per room.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rooms — Alcovea">
+  <meta property="og:description" content="Five rooms we draw: living room from $795, kitchen and dining from $1,095, bedroom from $645, home office and small rooms from $545. Priced per room, drawn per room.">
+  <meta property="og:image" content="assets/img/ba-after.jpg">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <!-- Utility bar and navigation -->
+
+  <div class="site-bar">
+    <div class="container">
+      <div class="site-bar__row d-flex justify-content-between align-items-center gap-3">
+        <p class="site-bar__l">
+          <span>Online interior design</span><i aria-hidden="true">&middot;</i><span>Portland &amp; remote</span><i aria-hidden="true">&middot;</i><span>Est. 2019</span>
+        </p>
+        <p class="site-bar__r">
+          <span class="site-bar__live align-items-center"><i aria-hidden="true"></i>Taking rooms for October</span>
+          <b aria-hidden="true">&middot;</b>
+          <a href="mailto:hello@alcovea.studio">hello@alcovea.studio</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <nav class="site-nav" id="mainNav">
+    <div class="container">
+      <div class="site-nav__bar d-flex align-items-center">
+        <a class="site-nav__brand" href="index.html"><img class="site-nav__brand-img" src="assets/img/logo-ink.png" alt="Alcovea" width="590" height="115"></a>
+        <ul class="site-nav__menu d-none d-xl-flex p-0">
+          <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="index.html">Home</a></li>
+           
+          
+        <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="about.html">About</a></li>
+
+        <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="services.html">Services</a></li>
+
+        <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="rooms.html">Room</a></li>
+
+        <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="projects.html">Projects</a></li>
+
+        <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="blog.html">Blog</a></li>
+
+        <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="site-nav__side d-flex align-items-center gap-3">
+          <a class="btn-a btn-a--sm site-nav__cta" href="contact.html">Start a room</a>
+          <button class="site-nav__burger flex-column justify-content-center" type="button" data-nav-toggle aria-label="Open menu" aria-expanded="false" aria-controls="navMobilePanel">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="site-nav__mobile h-100" id="navMobilePanel">
+    <div class="site-nav__mobile-head d-flex align-items-center justify-content-between mb-4">
+      <a class="site-nav__brand" href="index.html"><img class="site-nav__brand-img" src="assets/img/logo-light.png" alt="Alcovea" width="590" height="115"></a>
+      <button class="site-nav__mobile-close" type="button" data-nav-close aria-label="Close menu">&times;</button>
+    </div>
+    <ul class="site-nav__mobile-list m-0 p-0">
+      <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="index.html">Home</a></li>
+           
+          
+        <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="about.html">About</a></li>
+
+        <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="services.html">Services</a></li>
+
+        <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="rooms.html">Room</a></li>
+
+        <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="projects.html">Projects</a></li>
+
+        <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="blog.html">Blog</a></li>
+
+        <li class="site-nav__item position-relative"><a class="site-nav__link d-inline-flex align-items-center" href="contact.html">Contact</a></li>
+    </ul>
+    <div class="site-nav__mobile-foot">
+      <a class="btn-a btn-a--plaster" href="contact.html">Start a room</a>
+    </div>
+  </div>
+  <div class="site-nav__overlay" data-nav-close></div>
+
+  <main>
+
+  <!-- Hero: Five rooms we draw, and one we do not (.cover) -->
+  <header class="cover">
+    <div class="container cover__inner d-flex flex-column">
+      <nav class="crumb mb-4" aria-label="Breadcrumb">
+        <ol class="crumb__list d-flex flex-wrap m-0 p-0">
+          <li><a href="index.html">Home</a></li>
+          <li class="crumb__sep" aria-hidden="true">/</li>
+          <li aria-current="page">Rooms</li>
+        </ol>
+      </nav>
+      <div class="cover__foot align-items-lg-end" data-reveal>
+        <h1 class="cover__title m-0">Five rooms we draw, <em>and one we do not.</em></h1>
+        <p class="cover__note d-flex flex-wrap m-0 flex-lg-column align-items-lg-end text-lg-end"><span>From $545</span><span>142 rooms drawn</span><span>Seven states</span></p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Section: Living room (.rindex) -->
+  <section class="rindex gap-1">
+    <figure class="rband position-relative m-0" data-reveal>
+      <a class="zoom" href="room-detail.html"><img src="assets/img/room-living.jpg" alt="A living room the studio drew for a Portland loft" width="1200" height="1500" loading="lazy"></a>
+      <figcaption class="rband__cap d-flex flex-column justify-content-center">
+        <p class="rband__no mt-0 mx-0 mb-3">01</p>
+        <h2 class="rband__t"><a href="room-detail.html">Living room</a></h2>
+        <p class="rband__f d-flex flex-wrap mt-0 mx-0 mb-4"><span>From $795</span><span>14 days</span><span>23 pieces typical</span></p>
+        <p class="rband__d m-0">The room with the most decisions in it: seating that faces the right way, a rug that is not too small, and light you can read by after dark.</p>
+      </figcaption>
+    </figure>
+    <figure class="rband rband--flip position-relative m-0" data-reveal>
+      <a class="zoom" href="room-detail.html"><img src="assets/img/room-kitchen.jpg" alt="A kitchen and dining scheme with cabinetry specified" width="1200" height="900" loading="lazy"></a>
+      <figcaption class="rband__cap d-flex flex-column justify-content-center">
+        <p class="rband__no mt-0 mx-0 mb-3">02</p>
+        <h2 class="rband__t"><a href="room-detail.html">Kitchen &amp; dining</a></h2>
+        <p class="rband__f d-flex flex-wrap mt-0 mx-0 mb-4"><span>From $1,095</span><span>18 days</span><span>Cabinetry scheduled</span></p>
+        <p class="rband__d m-0">The only room where a trade quotes from our drawing, so it carries an appliance and cabinetry schedule and takes four days longer.</p>
+      </figcaption>
+    </figure>
+    <figure class="rband position-relative m-0" data-reveal>
+      <a class="zoom" href="room-detail.html"><img src="assets/img/room-bed.jpg" alt="A bedroom scheme in neutral linen" width="1200" height="900" loading="lazy"></a>
+      <figcaption class="rband__cap d-flex flex-column justify-content-center">
+        <p class="rband__no mt-0 mx-0 mb-3">03</p>
+        <h2 class="rband__t"><a href="room-detail.html">Bedroom</a></h2>
+        <p class="rband__f d-flex flex-wrap mt-0 mx-0 mb-4"><span>From $645</span><span>12 days</span><span>14 pieces typical</span></p>
+        <p class="rband__d m-0">Fewest pieces, most sensitive to light. We fix the bed wall first and everything else follows from where the window is.</p>
+      </figcaption>
+    </figure>
+    <figure class="rband rband--flip position-relative m-0" data-reveal>
+      <a class="zoom" href="room-detail.html"><img src="assets/img/room-office.jpg" alt="A home office in a loft" width="1200" height="900" loading="lazy"></a>
+      <figcaption class="rband__cap d-flex flex-column justify-content-center">
+        <p class="rband__no mt-0 mx-0 mb-3">04</p>
+        <h2 class="rband__t"><a href="room-detail.html">Home office</a></h2>
+        <p class="rband__f d-flex flex-wrap mt-0 mx-0 mb-4"><span>From $545</span><span>10 days</span><span>Desk height checked</span></p>
+        <p class="rband__d m-0">Drawn around your actual working day: what is on screen, what is on paper, and whether anyone else appears on a call behind you.</p>
+      </figcaption>
+    </figure>
+    <figure class="rband position-relative m-0" data-reveal>
+      <a class="zoom" href="room-detail.html"><img src="assets/img/room-nursery.jpg" alt="A small room with a desk and warm curtains" width="1200" height="900" loading="lazy"></a>
+      <figcaption class="rband__cap d-flex flex-column justify-content-center">
+        <p class="rband__no mt-0 mx-0 mb-3">05</p>
+        <h2 class="rband__t"><a href="room-detail.html">Nursery &amp; small rooms</a></h2>
+        <p class="rband__f d-flex flex-wrap mt-0 mx-0 mb-4"><span>From $545</span><span>10 days</span><span>Under 120 sq ft</span></p>
+        <p class="rband__d m-0">Under 120 square feet, where one wrong width ruins the whole plan. Drawn to the inch, with the two pieces that must be bought first named.</p>
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- Section: One flat, five rooms, five separate packages (.apt) -->
+  <section class="apt">
+    <div class="container">
+      <div class="shead" data-reveal>
+        <p class="shead__kick">How they sit together</p>
+        <h2 class="shead__title">One flat, five rooms,<em>five separate packages.</em></h2>
+      </div>
+      <div class="apt__grid align-items-center" data-reveal>
+        <img class="apt__plan w-100" src="assets/img/plan-apartment.svg" alt="A flat plan with the five room types numbered" width="772" height="432" loading="lazy">
+        <div class="apt__body">
+          <p>We price per room because rooms are drawn per room. A flat like this one is five packages, taken in whatever order suits the budget &mdash; and each second room in the same order takes 15% off.</p>
+          <p>Most people start with the room they use after dark, which is usually 01. The room people regret leaving last is 03, because a bedroom is the one you see first thing every morning.</p>
+          <p class="apt__meta">Plan shown: 940 sq ft, Alberta Street &middot; drawn March 2026</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Whole houses, all at once. We say no, and here is why (.norooms) -->
+  <section class="norooms">
+    <div class="container">
+      <div class="shead shead--light" data-reveal>
+        <p class="shead__kick">The one we do not</p>
+        <h2 class="shead__title">Whole houses, all at once.<em>We say no, and here is why.</em></h2>
+      </div>
+      <div class="norooms__grid">
+        <p class="norooms__lead m-0">A five-room house drawn in one go is four months of work for us and a $12,000 bill for you, which is the model this studio was built to replace.</p>
+        <ul class="norooms__list m-0" data-reveal>
+          <li><b>Rooms get built one at a time anyway.</b> Nobody furnishes five rooms in a fortnight, and a plan drawn ten months before the money arrives is a plan drawn against last year&rsquo;s prices.</li>
+          <li><b>The list goes stale.</b> Our links stay live for ninety days because that is how long a price can be trusted. Multiply that across a house and half the list is fiction.</li>
+          <li><b>You can still do the whole house.</b> Take the rooms in the order you will actually spend, with 15% off each second room. Two clients have done all five that way, ten months apart.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-foot">
+    <div class="container">
+      <div class="site-foot__head gap-4 align-items-lg-end">
+        <h2 class="site-foot__title"><span>Tell us the room.</span><em>We&rsquo;ll do the rest.</em></h2>
+        <div class="site-foot__act d-flex flex-column align-items-start align-items-lg-end gap-3">
+          <a class="site-foot__go" href="contact.html">Start a room</a>
+          <p class="site-foot__intake align-items-center gap-2 m-0"><i aria-hidden="true"></i>Next intake opens October 14 &middot; 6 rooms left</p>
+        </div>
+      </div>
+
+      <div class="site-foot__body">
+        <div class="site-foot__brand">
+          <img class="site-foot__logo" src="assets/img/logo-light.png" alt="Alcovea" width="590" height="115">
+          <p class="site-foot__desc mt-3 mx-0 mb-0">One room at a time, designed remotely. Send photographs and a few measurements; a scaled plan, a palette and a shopping list come back inside two weeks.</p>
+        </div>
+        <nav class="site-foot__cols" aria-label="Footer">
+          <div class="fcol">
+            <h3 class="fcol__label d-flex align-items-baseline gap-2"><i aria-hidden="true">01</i>Studio</h3>
+            <ul class="fcol__list m-0 p-0">
+              <li><a href="about.html">About</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="before-after.html">Before &amp; After</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </div>
+          <div class="fcol">
+            <h3 class="fcol__label d-flex align-items-baseline gap-2"><i aria-hidden="true">02</i>Rooms</h3>
+            <ul class="fcol__list m-0 p-0">
+              <li><a href="rooms.html">Living room</a></li>
+              <li><a href="rooms.html">Kitchen</a></li>
+              <li><a href="rooms.html">Bedroom</a></li>
+              <li><a href="rooms.html">Home office</a></li>
+            </ul>
+          </div>
+          <div class="fcol">
+            <h3 class="fcol__label d-flex align-items-baseline gap-2"><i aria-hidden="true">03</i>Buy</h3>
+            <ul class="fcol__list m-0 p-0">
+              <li><a href="packages.html">Packages</a></li>
+              <li><a href="style-quiz.html">Style quiz</a></li>
+              <li><a href="shop-the-look.html">Shop the look</a></li>
+              <li><a href="trade-program.html">Trade program</a></li>
+            </ul>
+          </div>
+          <div class="fcol">
+            <h3 class="fcol__label d-flex align-items-baseline gap-2"><i aria-hidden="true">04</i>Contact</h3>
+            <ul class="fcol__list m-0 p-0">
+              <li><a href="mailto:hello@alcovea.studio">hello@alcovea.studio</a></li>
+              <li><a href="tel:+15035550184">(503) 555-0184</a></li>
+              <li><a href="contact.html">1420 Halsey Row, Portland OR</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <p class="site-foot__copy d-flex flex-wrap justify-content-between gap-2 m-0 pt-4"><span>&copy; 2026 Alcovea Studio LLC</span><span>Est. 2019 &middot; Rooms designed remotely, from the first one</span></p>
+    </div>
+  </footer>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
